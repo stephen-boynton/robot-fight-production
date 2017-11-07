@@ -31,7 +31,6 @@ class App extends Component {
           <Route exact path="/gameover" component={GameOverView} />
           <Route exact path="/topscores" component={ScoresView} />
           <Route
-            exact
             path={"/"}
             component={() => (
               <HomeView
