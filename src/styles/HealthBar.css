@@ -1,0 +1,10 @@
+.HealthBar progress {
+  appearance: none;
+  width: 200px;
+  height: 20px;
+  background-color: hsl(318, 100%, 50%);
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #00ffbf;
+}

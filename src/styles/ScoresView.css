@@ -1,0 +1,23 @@
+.ScoreView {
+  font-size: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.ScoreView h2 {
+  margin-bottom: 20px;
+}
+
+.scoreUl {
+  list-style: none;
+}
+
+.scoreLi {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 200px;
+  justify-content: space-between;
+}

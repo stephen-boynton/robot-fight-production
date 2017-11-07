@@ -1,0 +1,43 @@
+.Robot {
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border: 5px inset;
+  border-radius: 10%;
+  animation-name: fight;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-timing-function: flat;
+}
+
+@keyframes fight {
+  0% {
+    border-color: white;
+  }
+  20% {
+    border-color: #ff00b2;
+  }
+  40% {
+    border-color: #ff0040;
+  }
+  60% {
+    border-color: #ff9100;
+  }
+  80% {
+    border-color: #9dff00;
+  }
+  95% {
+    border-color: #00ffbf;
+  }
+  100% {
+    border-color: white;
+  }
+}
+
+.Robot h3 {
+  color: white;
+  font-size: 40px;
+}

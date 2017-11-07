@@ -1,0 +1,108 @@
+.HomeView {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  padding-top: 5em;
+  align-items: center;
+}
+
+.start {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.homeTitle {
+  text-align: center;
+}
+
+.homeTitle h1 {
+  font-size: 60px;
+  color: #00ffbf;
+  text-shadow: 0px 4px 0px #ff00b2;
+}
+
+.homeTitle h3 {
+  font-size: 25px;
+  color: #ff00b2;
+  font-weight: 400;
+  text-shadow: 0px 1px 0px #00ffbf;
+}
+
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.username-label {
+  margin-bottom: 1em;
+}
+
+.username {
+  margin-bottom: 1em;
+  padding: 10px;
+  color: hsl(318, 100%, 50%);
+  background-color: transparent;
+  border: 1px solid #00ffbf;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.username:focus {
+  outline: none;
+  border: 3px solid hsl(318, 100%, 50%);
+  transition: 0.4s;
+}
+
+.form-button {
+  padding: 10px;
+  color: hsl(318, 100%, 50%);
+  background-color: transparent;
+  border: 1px solid #00ffbf;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.form-button:hover {
+  padding: 10px;
+  color: hsl(318, 100%, 50%);
+  background-color: transparent;
+  border: 3px solid hsl(318, 100%, 50%);
+  transition: 0.4s;
+}
+
+.form-button:focus {
+  outline: none;
+}
+
+.form-button:active {
+  transition: none;
+  color: #00ffbf;
+}
+
+.instructions-container {
+  margin-top: 3em;
+  width: 55%;
+}
+
+.instTitle {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.op-0 {
+  transition: 1s;
+  opacity: 0;
+}
+
+.op-1 {
+  transition: 1s;
+  opacity: 1;
+}

@@ -1,0 +1,22 @@
+.Moves button {
+  padding: 10px;
+  color: hsl(318, 100%, 50%);
+  background-color: transparent;
+  border: 1px solid #00ffbf;
+  transition: 0.4s;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.Moves button:hover {
+  padding: 10px;
+  color: hsl(318, 100%, 50%);
+  background-color: transparent;
+  border: 3px solid hsl(318, 100%, 50%);
+  transition: 0.4s;
+}
+
+.Moves button:focus {
+  outline: none;
+}

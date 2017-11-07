@@ -1,0 +1,27 @@
+.RoundOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.RoundOverlay p {
+  font-size: 18px;
+}
+
+.RoundOverlay img {
+  margin-bottom: 50px;
+}
+
+.RoundOverlay h1 {
+  font-size: 60px;
+}
+
+.RoundOverlay h2 {
+  margin: 20px;
+  font-size: 40px;
+}
